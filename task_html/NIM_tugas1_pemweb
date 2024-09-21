@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tank Type 10</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<center><h1>Tank Type 10</h1></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Type10MBT.jpg" alt="Tank Type 10 Jepang" class="img-fluid" style="width: 600px; height: 400px;"></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Type_10_Firing_battle_tank%2C_Japan_GSDF.jpg" alt="Tank Type 10 Jepang" class="img-fluid" style="width: 600px; height: 400px;"></center>
+
+<!-- Navigasi -->
+<ul>
+    <li><a href="#beranda">Beranda</a></li>
+    <li><a href="#sejarah">Sejarah</a></li>
+    <li><a href="#spesifikasi">Spesifikasi</a></li>
+    <li><a href="#video">Video</a></li>
+</ul>
+
+<!-- Halaman utama (body) -->
+<h2 id="beranda">Beranda</h2>
+<p>Tank Type 10 adalah tank tempur utama (MBT) modern buatan Jepang, yang dirancang oleh Mitsubishi Heavy Industries. Type 10 adalah tank yang sangat canggih dengan sistem kontrol penembakan otomatis dan perlindungan modular yang dapat disesuaikan dengan kebutuhan misi. Tank ini dioperasikan oleh 3 kru: pengemudi, penembak, dan komandan, serta dilengkapi amunisi APFSDS dan HEAT-MP untuk misi tempur yang fleksibel.</p>
+
+<!-- Sejarah -->
+<h2 id="sejarah">Sejarah</h2>
+<p>Tank Type 10 pertama kali diperkenalkan ke publik pada tahun 2010 dan mulai digunakan oleh Angkatan Darat Bela Diri Jepang. Pengembangan tank ini berfokus pada meningkatkan mobilitas dan proteksi, termasuk pemasangan sistem perlindungan modular dan meriam utama 120 mm. Dengan kecepatan yang lebih tinggi dan teknologi yang lebih mutakhir dibandingkan pendahulunya, tank ini dirancang untuk beradaptasi dengan kondisi medan yang bervariasi di Jepang.</p>
+
+<!-- Spesifikasi tank -->
+<h2 id="spesifikasi">Spesifikasi</h2>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th style="border: 1px solid black;">Spesifikasi</th>
+        <th style="border: 1px solid black;">Nilai</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td style="border: 1px solid black;">Berat</td>
+        <td style="border: 1px solid black;">44 ton</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Panjang</td>
+        <td style="border: 1px solid black;">9,485 m</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Lebar</td>
+        <td style="border: 1px solid black;">3,24 m</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Tinggi</td>
+        <td style="border: 1px solid black;">2,30 m</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Mesin</td>
+        <td style="border: 1px solid black;">Mitsubishi 8ZG V8 diesel</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Tenaga mesin</td>
+        <td style="border: 1px solid black;">1.200 hp</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Kecepatan maksimum</td>
+        <td style="border: 1px solid black;">70 km/h</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Jarak tempuh</td>
+        <td style="border: 1px solid black;">500 km</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Persenjataan utama</td>
+        <td style="border: 1px solid black;">Meriam 120 mm L/44 Smoothbore Gun</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Sudut Elevasi</td>
+        <td style="border: 1px solid black;">-10° sampai +15°</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Persenjataan sekunder</td>
+        <td style="border: 1px solid black;">Senapan mesin koaksial 7,62 mm dan senapan mesin 12,7 mm</td>
+    </tr>
+    </tbody>
+</table> 
+
+<!-- Video -->
+<h2 id="video">Video</h2>
+<div class="video-container">
+    <iframe width="420" height="315" 
+    src="https://www.youtube.com/embed/8t7LJuOJ9rQ?si=-emwjq4vUZKuP7G7" 
+    title="Tank Type 10"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+</div>
+<div class="video-container">
+    <iframe width="420" height="315" 
+    src="https://www.youtube.com/embed/JTOOcFAjLWA?si=GXT_aYbNi-QlJjTA" 
+    title="Tank Type 10"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+</div>
+
+<!-- Komentar -->
+<form action="contact.php" method="post">
+    <input type="text" name="name" placeholder="Nama">
+    <input type="email" name="email" placeholder="Email">
+    <textarea name="message" placeholder="Komentar atau pertanyaan"></textarea>
+    <input type="submit" value="Kirim">
+</form>
+
+<!-- Footer -->
+<p>Copyright &copy; 2024</p>
+<p>Muhammad Ridho Sandi Kurniawan 121140046</p>
+
+</body>
+</html>
